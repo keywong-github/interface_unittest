@@ -1,0 +1,19 @@
+01——测试接口服务：①test_api.py
+
+02——配置文件读取：①配置文件config.ini ②获取文件绝对路径getpathInfo.py ③读取配置文件readConfig.py
+
+03——读取Excel中的case：①数据文件userCase.xlsx ②读取数据readExcel.py
+
+04——requests请求：①接口请求动作configHttp.py
+
+05——参数动态化：①拼接获取的配置文件geturlParams.py
+
+06——unittest断言：①断言测试testCase下的test01case.py
+
+07——HTMLTestRunner：①测试报告HTMLTestRunner.py
+
+08——调用生成测试报告：①控制生效用例caselist.txt ②发送邮件的文件configEmail.py ③主程序runAll.py④日志输出Log.py
+⑤修改runAll.py文件，配置日志
+
+
+
