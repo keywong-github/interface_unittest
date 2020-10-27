@@ -15,5 +15,5 @@
 08——调用生成测试报告：①控制生效用例caselist.txt ②发送邮件的文件configEmail.py ③主程序runAll.py④日志输出Log.py
 ⑤修改runAll.py文件，配置日志
 
-
+修改然后尝试sourcetree
 
