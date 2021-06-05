@@ -29,7 +29,7 @@ class RunMain():
 
 
 if __name__ == '__main__':  # 通过写死参数，来验证我们写的请求是否正确
-    result1 = RunMain().run_main('post', 'http://127.0.0.1:8888/login', {'username': 'xiaoming', 'pwd': '111'})
-    result2 = RunMain().run_main('get', 'http://127.0.0.1:8888/login', 'username=xiaoming&pwd=111')
+    result1 = RunMain().run_main('post', 'http://127.0.0.1:8890/login', {'username': 'xiaoming', 'pwd': '111'})
+    result2 = RunMain().run_main('get', 'http://127.0.0.1:8890/login', 'username=xiaoming&pwd=111')
     print(result1)
     print(result2)
